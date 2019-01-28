@@ -22,6 +22,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		8494604F21FF21ED00CF43C5 /* iPictures.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = iPictures.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		849C11FD21FF13110076619D /* FastlaneSwiftRunner.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = FastlaneSwiftRunner.xcodeproj; path = fastlane/swift/FastlaneSwiftRunner/FastlaneSwiftRunner.xcodeproj; sourceTree = "<group>"; };
 		849C120B21FF14870076619D /* qbd.txt */ = {isa = PBXFileReference; lastKnownFileType = text; path = qbd.txt; sourceTree = "<group>"; };
 		849C120C21FF14870076619D /* qbd.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = qbd.mp3; sourceTree = "<group>"; };
@@ -32,7 +33,6 @@
 		849C121121FF14950076619D /* pdfkit_uses_hierarchy.gif */ = {isa = PBXFileReference; lastKnownFileType = image.gif; path = pdfkit_uses_hierarchy.gif; sourceTree = "<group>"; };
 		OBJ_6 /* Package.swift */ = {isa = PBXFileReference; explicitFileType = sourcecode.swift; path = Package.swift; sourceTree = "<group>"; };
 		OBJ_9 /* iPictures.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = iPictures.swift; sourceTree = "<group>"; };
-		"iPictures::iPictures::Product" /* iPictures.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = iPictures.framework; path = /Users/admin/hsg/hexo/GitSubmodules/iPictures/build/Debug/iPictures.framework; sourceTree = "<absolute>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -108,15 +108,15 @@
 			path = audios;
 			sourceTree = "<group>";
 		};
-		OBJ_5 /*  */ = {
+		OBJ_5 = {
 			isa = PBXGroup;
 			children = (
 				849C11FD21FF13110076619D /* FastlaneSwiftRunner.xcodeproj */,
 				OBJ_6 /* Package.swift */,
 				OBJ_7 /* Sources */,
 				849C120421FF146B0076619D /* Resources */,
+				8494604F21FF21ED00CF43C5 /* iPictures.framework */,
 			);
-			name = "";
 			sourceTree = "<group>";
 		};
 		OBJ_7 /* Sources */ = {
@@ -166,7 +166,7 @@
 			);
 			name = iPictures;
 			productName = iPictures;
-			productReference = "iPictures::iPictures::Product" /* iPictures.framework */;
+			productReference = 8494604F21FF21ED00CF43C5 /* iPictures.framework */;
 			productType = "com.apple.product-type.framework";
 		};
 /* End PBXNativeTarget section */
@@ -184,8 +184,8 @@
 			knownRegions = (
 				en,
 			);
-			mainGroup = OBJ_5 /*  */;
-			productRefGroup = OBJ_5 /*  */;
+			mainGroup = OBJ_5;
+			productRefGroup = OBJ_5;
 			projectDirPath = "";
 			projectReferences = (
 				{
