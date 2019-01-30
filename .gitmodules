@@ -1,0 +1,3 @@
+[submodule "fastlane/swift"]
+	path = fastlane/swift
+	url = https://github.com/huos3203/iFastlaneRunner.git
