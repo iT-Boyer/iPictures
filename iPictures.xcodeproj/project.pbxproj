@@ -20,42 +20,17 @@
 /* End PBXFileReference section */
 
 /* Begin PBXGroup section */
-		OBJ_13 /* Products */ = {
-			isa = PBXGroup;
-			children = (
-			);
-			name = Products;
-			sourceTree = BUILT_PRODUCTS_DIR;
-		};
-		OBJ_5 /*  */ = {
+		OBJ_5 = {
 			isa = PBXGroup;
 			children = (
 				84D9F2CC22FC34CE00CB2B56 /* README.md */,
 				OBJ_6 /* Package.swift */,
-				OBJ_7 /* Sources */,
-				OBJ_8 /* Tests */,
 				OBJ_9 /* audios */,
 				OBJ_10 /* images */,
 				OBJ_11 /* pdf */,
 				OBJ_12 /* videos */,
-				OBJ_13 /* Products */,
 			);
-			name = "";
 			sourceTree = "<group>";
-		};
-		OBJ_7 /* Sources */ = {
-			isa = PBXGroup;
-			children = (
-			);
-			name = Sources;
-			sourceTree = SOURCE_ROOT;
-		};
-		OBJ_8 /* Tests */ = {
-			isa = PBXGroup;
-			children = (
-			);
-			name = Tests;
-			sourceTree = SOURCE_ROOT;
 		};
 /* End PBXGroup section */
 
@@ -90,8 +65,8 @@
 				English,
 				en,
 			);
-			mainGroup = OBJ_5 /*  */;
-			productRefGroup = OBJ_13 /* Products */;
+			mainGroup = OBJ_5;
+			productRefGroup = OBJ_5;
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
